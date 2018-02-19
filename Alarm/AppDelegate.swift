@@ -11,11 +11,26 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
+    let mainWindow = UIWindow()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Create rootview
+        mainWindow.rootViewController = {
+            let rootViewController = UIViewController()
+            
+            let rootView = ViewHolder()
+            
+            rootView.backgroundColor = UIColor(red: 81/256, green: 81/256, blue: 81/256, alpha: 1.0) 
+
+            rootViewController.view = rootView
+            return rootViewController
+        }()
+
+        mainWindow.makeKeyAndVisible()
+        
+        // Update status bar for LOOKS
+        UIApplication.shared.statusBarStyle = .lightContent
         return true
     }
 

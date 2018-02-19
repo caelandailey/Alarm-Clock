@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		38766F7C2029373900D0C932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766F7B2029373900D0C932 /* AppDelegate.swift */; };
-		38766F7E2029373900D0C932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766F7D2029373900D0C932 /* ViewController.swift */; };
-		38766F812029373900D0C932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38766F7F2029373900D0C932 /* Main.storyboard */; };
 		38766F832029373900D0C932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38766F822029373900D0C932 /* Assets.xcassets */; };
-		38766F862029373900D0C932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38766F842029373900D0C932 /* LaunchScreen.storyboard */; };
-		38766F912029373900D0C932 /* AlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766F902029373900D0C932 /* AlarmTests.swift */; };
-		38766F9C2029373900D0C932 /* AlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766F9B2029373900D0C932 /* AlarmUITests.swift */; };
+		38766FAA2029377C00D0C932 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38766FA92029377C00D0C932 /* Default-568h@2x.png */; };
+		38766FAC202ABCAC00D0C932 /* ViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766FAB202ABCAC00D0C932 /* ViewHolder.swift */; };
+		38766FB0202ABD5900D0C932 /* TimeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766FAF202ABD5900D0C932 /* TimeControl.swift */; };
+		38766FB2202AC6EC00D0C932 /* DurationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766FB1202AC6EB00D0C932 /* DurationControl.swift */; };
+		38766FB4202AC6F700D0C932 /* DayControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766FB3202AC6F700D0C932 /* DayControl.swift */; };
+		38766FB6202AC70400D0C932 /* ZoneControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766FB5202AC70400D0C932 /* ZoneControl.swift */; };
+		38766FB8202B930D00D0C932 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38766FB7202B930D00D0C932 /* ClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +38,17 @@
 /* Begin PBXFileReference section */
 		38766F782029373900D0C932 /* Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38766F7B2029373900D0C932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38766F7D2029373900D0C932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		38766F802029373900D0C932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38766F822029373900D0C932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38766F852029373900D0C932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38766F872029373900D0C932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38766F8C2029373900D0C932 /* AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		38766F902029373900D0C932 /* AlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTests.swift; sourceTree = "<group>"; };
-		38766F922029373900D0C932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38766F972029373900D0C932 /* AlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		38766F9B2029373900D0C932 /* AlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmUITests.swift; sourceTree = "<group>"; };
-		38766F9D2029373900D0C932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38766FA92029377C00D0C932 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		38766FAB202ABCAC00D0C932 /* ViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHolder.swift; sourceTree = "<group>"; };
+		38766FAF202ABD5900D0C932 /* TimeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeControl.swift; sourceTree = "<group>"; };
+		38766FB1202AC6EB00D0C932 /* DurationControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationControl.swift; sourceTree = "<group>"; };
+		38766FB3202AC6F700D0C932 /* DayControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayControl.swift; sourceTree = "<group>"; };
+		38766FB5202AC70400D0C932 /* ZoneControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneControl.swift; sourceTree = "<group>"; };
+		38766FB7202B930D00D0C932 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,8 @@
 		38766F6F2029373900D0C932 = {
 			isa = PBXGroup;
 			children = (
+				38766FA92029377C00D0C932 /* Default-568h@2x.png */,
 				38766F7A2029373900D0C932 /* Alarm */,
-				38766F8F2029373900D0C932 /* AlarmTests */,
-				38766F9A2029373900D0C932 /* AlarmUITests */,
 				38766F792029373900D0C932 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,31 +99,16 @@
 			isa = PBXGroup;
 			children = (
 				38766F7B2029373900D0C932 /* AppDelegate.swift */,
-				38766F7D2029373900D0C932 /* ViewController.swift */,
-				38766F7F2029373900D0C932 /* Main.storyboard */,
 				38766F822029373900D0C932 /* Assets.xcassets */,
-				38766F842029373900D0C932 /* LaunchScreen.storyboard */,
 				38766F872029373900D0C932 /* Info.plist */,
+				38766FAB202ABCAC00D0C932 /* ViewHolder.swift */,
+				38766FAF202ABD5900D0C932 /* TimeControl.swift */,
+				38766FB1202AC6EB00D0C932 /* DurationControl.swift */,
+				38766FB3202AC6F700D0C932 /* DayControl.swift */,
+				38766FB5202AC70400D0C932 /* ZoneControl.swift */,
+				38766FB7202B930D00D0C932 /* ClockView.swift */,
 			);
 			path = Alarm;
-			sourceTree = "<group>";
-		};
-		38766F8F2029373900D0C932 /* AlarmTests */ = {
-			isa = PBXGroup;
-			children = (
-				38766F902029373900D0C932 /* AlarmTests.swift */,
-				38766F922029373900D0C932 /* Info.plist */,
-			);
-			path = AlarmTests;
-			sourceTree = "<group>";
-		};
-		38766F9A2029373900D0C932 /* AlarmUITests */ = {
-			isa = PBXGroup;
-			children = (
-				38766F9B2029373900D0C932 /* AlarmUITests.swift */,
-				38766F9D2029373900D0C932 /* Info.plist */,
-			);
-			path = AlarmUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +218,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38766F862029373900D0C932 /* LaunchScreen.storyboard in Resources */,
 				38766F832029373900D0C932 /* Assets.xcassets in Resources */,
-				38766F812029373900D0C932 /* Main.storyboard in Resources */,
+				38766FAA2029377C00D0C932 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38766F7E2029373900D0C932 /* ViewController.swift in Sources */,
+				38766FB2202AC6EC00D0C932 /* DurationControl.swift in Sources */,
+				38766FB8202B930D00D0C932 /* ClockView.swift in Sources */,
+				38766FB0202ABD5900D0C932 /* TimeControl.swift in Sources */,
+				38766FB6202AC70400D0C932 /* ZoneControl.swift in Sources */,
 				38766F7C2029373900D0C932 /* AppDelegate.swift in Sources */,
+				38766FAC202ABCAC00D0C932 /* ViewHolder.swift in Sources */,
+				38766FB4202AC6F700D0C932 /* DayControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38766F912029373900D0C932 /* AlarmTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38766F9C2029373900D0C932 /* AlarmUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +282,6 @@
 			targetProxy = 38766F982029373900D0C932 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		38766F7F2029373900D0C932 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38766F802029373900D0C932 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		38766F842029373900D0C932 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38766F852029373900D0C932 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		38766F9E2029373900D0C932 /* Debug */ = {
